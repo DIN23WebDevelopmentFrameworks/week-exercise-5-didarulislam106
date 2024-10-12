@@ -1,4 +1,9 @@
 import { render, screen, within, waitFor, act } from "@testing-library/react";
+import { expect } from 'vitest';
+import { test } from 'vitest';
+
+// Declare global variable
+declare const global: any;
 import userEvent from "@testing-library/user-event";
 import App from "./App";
 import { vi } from 'vitest';
